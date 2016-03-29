@@ -165,8 +165,8 @@ header span a:hover {
     letter-spacing: 1.2px;
     text-align: left;
 
-    -webkit-animation: fade_left 0.7s ease; /* Chrome, Safari, Opera */
-    animation: fade_left 0.7s ease;
+    /*-webkit-animation: fade_left 0.7s ease; !* Chrome, Safari, Opera *!*/
+    /*animation: fade_left 0.7s ease;*/
 }
 
 .mj a {

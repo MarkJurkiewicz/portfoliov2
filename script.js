@@ -19,9 +19,11 @@ function email(s) {
     window.location = mail;
 }
 
-$(function () {
+
+
++$(window).load(function() {
     $("body").css("display", "none");
-    $("body").fadeIn(2000);
+    $("body").fadeIn(1000);
     $('h1').slideToggle(1500).fadeIn(2000);
     $('.about').fadeIn(5000);
     $(".scroll").click(function(event){
@@ -37,4 +39,5 @@ $(function () {
             return false;
         });
     });
+
 });
